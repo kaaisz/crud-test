@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-app.js",
+  "scripts": {
+    "start": "sh go.sh",
+    "logs": "sh logs.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "comedy": "^2.0.0",
+    "csv-db": "^0.2.1",
+    "express": "^4.16.4",
+    "simple-node-logger": "^18.12.21",
+    "vorpal": "^1.12.0"
+  }
+}
